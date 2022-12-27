@@ -1,0 +1,9 @@
+schemaVersion: 2.2.0
+metadata:
+  name: advent-python
+components:
+  - name: tools
+    container:
+      image: quay.io/devfile/universal-developer-image:ubi8-3055e6d
+      memoryLimit: 4.7G
+      mountSources: true
